@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="home">
+      <h1>
+        Hello! I'm <span>Andra Rotar</span>. Here begins my journey as a web
+        developer.
+      </h1>
+      <a href="#section2">View my progress</a>
+    </div>
+
+    <div class="navbar" id="section2">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div id="about">
+      <h2>About</h2>
+      <div class="description">
+        <div>
+         After four years of experience in another industry, I decided that my
+          career should take another turn. I finished three courses from Scoala
+         Informala de IT. The Intro course was where my friendship with web
+          development began and I also gain a bit of knowledge about databases and
+          software testing. 
+        </div>
+        <div>
+          In the Web Development (JavaScript) course, that came
+          after, I got to further expand my previous knowledge and acquire new
+         skills, deepen my understanding of front-end technologies and I got
+          ready to develop simple front-end applications by using: HTML5, CSS3,
+         Javascript, jQuery, ReactJS, Bootstrap, npm, MockAPI and Vite. Currently
+         I also finished taking a class to advance my knowledge of React.js
+         library. 
+        </div>
+         I'm now inspired to carry on with my work as a junior web
+         developer, and I'm seeking a chance to advance my front-end development
+          abilities with:
+       </div>
+    </div>
+
+      <div class="tech">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-react"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+
+      <p class="description">
+        Along with the new technical skills I acquired, I bring with me a set of
+        skills that will surely help me in conquering any new challenge.
+      </p>
+
+      <div class="progress">
+        <img src="/images/picture.png" id="img1" alt="" />
+
+        <div class="progressbar-container">
+          <div class="skills">
+            <h3>Communication and interpersonal skills</h3>
+            <div class="progressbar">
+              <div class="communication"><span>90%</span></div>
+            </div>
+            <p>
+              I am a team player, ready to engage in knowledge-sharing sessions
+              with my peers. I have experience in multicultural working groups
+              with stakeholders from various industries.
+            </p>
+
+            <h3>Project management</h3>
+            <div class="progressbar">
+              <div class="management"><span>98%</span></div>
+            </div>
+            <p>
+              Leadership and mentoring. Planning activities, monitoring budgets, 
+              allocating resources to achieve goals, setting goals, and
+              performance indicators. I take ownership of issues and find
+              efficient solutions for improvement.
+            </p>
+
+            <h3>Research skills</h3>
+            <div class="progressbar">
+              <div class="research"><span>85%</span></div>
+            </div>
+            <p>
+              I am able to analyze multiple sources and data to summarize the
+              findings to facilitate logical actions. Data analysis and reports
+              development.
+            </p>
+
+            <h3>Other tehnical skills</h3>
+            <div class="progressbar">
+              <div class="other"><span>60%</span></div>
+            </div>
+            <p>
+              Basic knowledge about databases, software testing and debugging as
+              well as proficiency with Canva graphic design application.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Projects</h2>
+    <div id="projects">
+      <div class="projects-container">
+        <img src="/images/final-project.png" alt="" class="project-img" />
+        <div class="overlay">
+          <div class="project-title">GoldenEve. Jewelry Collection</div>
+          <div class="project-description">
+            E-commerce Store (HTML, CSS and Javascript)
+          </div>
+          <a href="https://goldeneve.surge.sh/index.html" target="_blank"
+            >Learn more</a
+          >
+        </div>
+      </div>
+
+      <div class="projects-container">
+        <img src="/images/receipecatalogue.png" alt="" class="project-img" />
+        <div class="overlay">
+          <div class="project-title">Spoons and Spices</div>
+          <div class="project-description">
+            Recipe Catalogue (React) - Work in progress
+          </div>
+          <a href="https://spoonsandspices.surge.sh/" target="_blank"
+            >Learn more</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h2>Contact</h2>
+      <p>Have a question or want to work together?</p>
+      <p>Get in touch!</p>
+
+      <form name="validationform " id="form">
+        <div id="submit-correct"></div>
+        <input type="text" name="" id="first-name" placeholder="First Name" />
+        <span id="firstname-error"></span>
+
+        <input type="text" name="" id="last-name" placeholder="Last Name" />
+        <span id="lastname-error"></span>
+
+        <input
+          type="tel"
+          name=""
+          id="phone-number"
+          placeholder="123 456 7890"
+        />
+        <span id="phone-error"></span>
+
+        <input type="email" name="" id="email" placeholder="Email" />
+        <span id="email-error"></span>
+
+        <textarea
+          name=""
+          id="contact-message"
+          rows="5"
+          maxlength="200"
+          placeholder="Your message here..."
+        ></textarea>
+        <span id="message-error"></span>
+        <div id="message-counter">200 remining characters</div>
+
+        <button id="submit-form">Submit</button>
+        <span id="submit-error"></span>
+      </form>
+      <span class="note">&#9913; The form is not functional. It has dispaly purpose only.</span>
+
+      <div id="footer">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/andra-rotar/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/andra.florina.18" target="_blank"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+          <a href="https://github.com/AndraRotar" target="_blank"
+            ><i class="fa-brands fa-github-square"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
